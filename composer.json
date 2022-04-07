@@ -1,0 +1,27 @@
+{
+  "name": "laurinneff/jeder.ch",
+  "type": "project",
+  "license": "WTFPL",
+  "autoload": {
+    "psr-4": {
+      "Laurinneff\\JederCh\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Laurin Neff",
+      "email": "laurin@laurinneff.ch"
+    }
+  ],
+  "require": {
+    "league/commonmark": "^2.2.2",
+    "scssphp/scssphp": "^v1.10.0",
+    "ramsey/uuid": "^4.2.3",
+    "symfony/mailer": "^v5.4.5",
+    "spomky-labs/otphp": "^v10.0.0",
+    "endroid/qr-code": "^4.4.7",
+    "ext-pdo": "*",
+    "ext-fileinfo": "*",
+    "ext-gd": "*"
+  }
+}
