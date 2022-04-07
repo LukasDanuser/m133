@@ -1,0 +1,24 @@
+@import "layout";
+@import "account";
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: $text;
+}
+
+svg.icon {
+  vertical-align: middle;
+}
+
+html.nojs .onlyIfScripts {
+  display: none;
+}
+
+.selectAll {
+  user-select: all;
+}
+
+.center {
+  text-align: center;
+}

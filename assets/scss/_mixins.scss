@@ -1,0 +1,59 @@
+@import "colors";
+
+@mixin input {
+  border: none;
+  border-bottom: 1px solid $border;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  display: block;
+
+  transition: border-bottom-color 0.2s ease-in-out;
+
+  &:focus {
+    outline: none;
+    border-bottom-color: $primary;
+  }
+}
+
+@mixin button {
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+
+  transition: background-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+@mixin button-primary {
+  background-color: $primary;
+
+  &:hover {
+    background-color: $primary-dark;
+  }
+}
+
+@mixin button-secondary {
+  background-color: $secondary;
+
+  &:hover {
+    background-color: $secondary-dark;
+  }
+}
+
+@mixin link {
+  color: $link;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
