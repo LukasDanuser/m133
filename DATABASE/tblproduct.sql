@@ -6,8 +6,9 @@ CREATE TABLE `customer`(
   `firstname` varchar(255) NOT NULL,
   `lastname` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
-  `passwdHash` varchar(255) NOT NULL
-)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `passwdHash` varchar(255) NOT NULL,
+  `admin` int(1) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;  
 
 CREATE TABLE `tblproduct` (
   `id` int(8) NOT NULL,
