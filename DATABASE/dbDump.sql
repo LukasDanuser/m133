@@ -1,6 +1,6 @@
 -- MariaDB dump 10.19  Distrib 10.4.24-MariaDB, for Win64 (AMD64)
 --
--- Host: localhost    Database: lukasdanuser
+-- Host: localhost    Database: db1
 -- ------------------------------------------------------
 -- Server version	10.4.24-MariaDB
 
@@ -16,12 +16,12 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Current Database: `lukasdanuser`
+-- Current Database: `db1`
 --
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `lukasdanuser` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `db1` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 
-USE `lukasdanuser`;
+USE `db1`;
 
 --
 -- Table structure for table `customer`
