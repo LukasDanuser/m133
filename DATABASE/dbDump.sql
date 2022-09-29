@@ -1,6 +1,6 @@
 -- MariaDB dump 10.19  Distrib 10.4.24-MariaDB, for Win64 (AMD64)
 --
--- Host: localhost    Database: db1
+-- Host: localhost    Database: penetrationtesting
 -- ------------------------------------------------------
 -- Server version	10.4.24-MariaDB
 
@@ -16,12 +16,12 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Current Database: `db1`
+-- Current Database: `penetrationtesting`
 --
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `db1` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `penetrationtesting` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 
-USE `db1`;
+USE `penetrationtesting`;
 
 --
 -- Table structure for table `customer`

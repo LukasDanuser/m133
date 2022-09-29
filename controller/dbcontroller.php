@@ -4,7 +4,7 @@ class DBController
 	private $host = "localhost";
 	private $user = "root";
 	private $password = "";
-	private $database = "db1";
+	private $database = "penetrationtesting";
 	private $conn;
 
 	function __construct()
